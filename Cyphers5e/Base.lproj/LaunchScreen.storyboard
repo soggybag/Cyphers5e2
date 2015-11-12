@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +15,35 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icons.png" translatesAutoresizingMaskIntoConstraints="NO" id="onD-tg-DaW">
+                                <rect key="frame" x="191" y="168" width="218" height="264"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="218" id="o3t-xj-lgD"/>
+                                    <constraint firstAttribute="height" constant="264" id="oTd-6o-okl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RELIC GENERATOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AVd-JB-ExC">
+                                <rect key="frame" x="191" y="90" width="218" height="47"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="db2-Oa-8Na"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="39"/>
+                                <color key="textColor" red="0.61805791440217384" green="0.61805791440217384" blue="0.61805791440217384" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="onD-tg-DaW" firstAttribute="top" secondItem="AVd-JB-ExC" secondAttribute="bottom" constant="31" id="BNb-4e-c46"/>
+                            <constraint firstItem="onD-tg-DaW" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Dyr-cL-6xq"/>
+                            <constraint firstItem="AVd-JB-ExC" firstAttribute="centerX" secondItem="onD-tg-DaW" secondAttribute="centerX" id="NdS-h8-YRy"/>
+                            <constraint firstItem="onD-tg-DaW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bmH-ZU-Cyl"/>
+                            <constraint firstItem="AVd-JB-ExC" firstAttribute="width" secondItem="onD-tg-DaW" secondAttribute="width" id="yBb-uh-HgQ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +51,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Icons.png" width="218" height="264"/>
+    </resources>
 </document>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B075D841BC6093600FB4405 /* Spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B075D831BC6093600FB4405 /* Spell.swift */; };
+		7B075D921BC6D05A00FB4405 /* spells2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B075D911BC6D05A00FB4405 /* spells2.plist */; };
+		7B0DE9A21BD54DC800D28E60 /* CypherGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0DE9A11BD54DC800D28E60 /* CypherGenerator.swift */; };
 		7B1799E71BC4CE2D002A0BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1799E61BC4CE2D002A0BA3 /* AppDelegate.swift */; };
 		7B1799E91BC4CE2D002A0BA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1799E81BC4CE2D002A0BA3 /* ViewController.swift */; };
 		7B1799EC1BC4CE2D002A0BA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1799EA1BC4CE2D002A0BA3 /* Main.storyboard */; };
@@ -15,6 +18,18 @@
 		7B1799F41BC4CE2D002A0BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1799F21BC4CE2D002A0BA3 /* LaunchScreen.storyboard */; };
 		7B1799FF1BC4CE2D002A0BA3 /* Cyphers5eTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1799FE1BC4CE2D002A0BA3 /* Cyphers5eTests.swift */; };
 		7B179A0A1BC4CE2D002A0BA3 /* Cyphers5eUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B179A091BC4CE2D002A0BA3 /* Cyphers5eUITests.swift */; };
+		7B179A181BC4CE7A002A0BA3 /* spells.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B179A171BC4CE7A002A0BA3 /* spells.plist */; };
+		7B179A981BC5799A002A0BA3 /* SpellList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B179A971BC5799A002A0BA3 /* SpellList.swift */; };
+		7B4891CD1BC8D623004B44BC /* ObjectGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4891CC1BC8D623004B44BC /* ObjectGenerator.swift */; };
+		7B48922C1BC9EAF0004B44BC /* Cypher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B48922B1BC9EAF0004B44BC /* Cypher.swift */; };
+		7B4892C61BCA2AE3004B44BC /* SpellEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4892C51BCA2AE3004B44BC /* SpellEffect.swift */; };
+		7B8EFBD91BD73D46003F8833 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EFBD71BD73D46003F8833 /* Icon-Small@2x.png */; };
+		7B8EFBDA1BD73D46003F8833 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EFBD81BD73D46003F8833 /* Icon-Small@3x.png */; };
+		7B8EFBDD1BD73D5B003F8833 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EFBDB1BD73D5B003F8833 /* Icon-40@2x.png */; };
+		7B8EFBDE1BD73D5B003F8833 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EFBDC1BD73D5B003F8833 /* Icon-40@3x.png */; };
+		7B8EFBE11BD73D74003F8833 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EFBDF1BD73D74003F8833 /* Icon-60@2x.png */; };
+		7B8EFBE21BD73D74003F8833 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EFBE01BD73D74003F8833 /* Icon-60@3x.png */; };
+		7B8EFBE41BD73DB9003F8833 /* Icons.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EFBE31BD73DB9003F8833 /* Icons.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B075D831BC6093600FB4405 /* Spell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spell.swift; sourceTree = "<group>"; };
+		7B075D911BC6D05A00FB4405 /* spells2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spells2.plist; sourceTree = "<group>"; };
+		7B0DE9A11BD54DC800D28E60 /* CypherGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CypherGenerator.swift; sourceTree = "<group>"; };
 		7B1799E31BC4CE2D002A0BA3 /* Cyphers5e.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyphers5e.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1799E61BC4CE2D002A0BA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B1799E81BC4CE2D002A0BA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +67,18 @@
 		7B179A051BC4CE2D002A0BA3 /* Cyphers5eUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cyphers5eUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B179A091BC4CE2D002A0BA3 /* Cyphers5eUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyphers5eUITests.swift; sourceTree = "<group>"; };
 		7B179A0B1BC4CE2D002A0BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B179A171BC4CE7A002A0BA3 /* spells.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spells.plist; sourceTree = "<group>"; };
+		7B179A971BC5799A002A0BA3 /* SpellList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellList.swift; sourceTree = "<group>"; };
+		7B4891CC1BC8D623004B44BC /* ObjectGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectGenerator.swift; sourceTree = "<group>"; };
+		7B48922B1BC9EAF0004B44BC /* Cypher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cypher.swift; sourceTree = "<group>"; };
+		7B4892C51BCA2AE3004B44BC /* SpellEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellEffect.swift; sourceTree = "<group>"; };
+		7B8EFBD71BD73D46003F8833 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		7B8EFBD81BD73D46003F8833 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		7B8EFBDB1BD73D5B003F8833 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		7B8EFBDC1BD73D5B003F8833 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		7B8EFBDF1BD73D74003F8833 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		7B8EFBE01BD73D74003F8833 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		7B8EFBE31BD73DB9003F8833 /* Icons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icons.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +113,13 @@
 				7B1799FD1BC4CE2D002A0BA3 /* Cyphers5eTests */,
 				7B179A081BC4CE2D002A0BA3 /* Cyphers5eUITests */,
 				7B1799E41BC4CE2D002A0BA3 /* Products */,
+				7B8EFBD71BD73D46003F8833 /* Icon-Small@2x.png */,
+				7B8EFBD81BD73D46003F8833 /* Icon-Small@3x.png */,
+				7B8EFBDB1BD73D5B003F8833 /* Icon-40@2x.png */,
+				7B8EFBDC1BD73D5B003F8833 /* Icon-40@3x.png */,
+				7B8EFBDF1BD73D74003F8833 /* Icon-60@2x.png */,
+				7B8EFBE01BD73D74003F8833 /* Icon-60@3x.png */,
+				7B8EFBE31BD73DB9003F8833 /* Icons.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +136,16 @@
 		7B1799E51BC4CE2D002A0BA3 /* Cyphers5e */ = {
 			isa = PBXGroup;
 			children = (
+				7B179A171BC4CE7A002A0BA3 /* spells.plist */,
+				7B075D911BC6D05A00FB4405 /* spells2.plist */,
 				7B1799E61BC4CE2D002A0BA3 /* AppDelegate.swift */,
 				7B1799E81BC4CE2D002A0BA3 /* ViewController.swift */,
+				7B179A971BC5799A002A0BA3 /* SpellList.swift */,
+				7B075D831BC6093600FB4405 /* Spell.swift */,
+				7B4891CC1BC8D623004B44BC /* ObjectGenerator.swift */,
+				7B48922B1BC9EAF0004B44BC /* Cypher.swift */,
+				7B0DE9A11BD54DC800D28E60 /* CypherGenerator.swift */,
+				7B4892C51BCA2AE3004B44BC /* SpellEffect.swift */,
 				7B1799EA1BC4CE2D002A0BA3 /* Main.storyboard */,
 				7B1799F01BC4CE2D002A0BA3 /* Assets.xcassets */,
 				7B1799F21BC4CE2D002A0BA3 /* LaunchScreen.storyboard */,
@@ -195,6 +240,7 @@
 				TargetAttributes = {
 					7B1799E21BC4CE2D002A0BA3 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 753UQ7TNXJ;
 					};
 					7B1799F91BC4CE2D002A0BA3 = {
 						CreatedOnToolsVersion = 7.0;
@@ -231,9 +277,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8EFBE41BD73DB9003F8833 /* Icons.png in Resources */,
 				7B1799F41BC4CE2D002A0BA3 /* LaunchScreen.storyboard in Resources */,
+				7B8EFBE11BD73D74003F8833 /* Icon-60@2x.png in Resources */,
+				7B179A181BC4CE7A002A0BA3 /* spells.plist in Resources */,
 				7B1799F11BC4CE2D002A0BA3 /* Assets.xcassets in Resources */,
+				7B8EFBD91BD73D46003F8833 /* Icon-Small@2x.png in Resources */,
+				7B8EFBDE1BD73D5B003F8833 /* Icon-40@3x.png in Resources */,
 				7B1799EC1BC4CE2D002A0BA3 /* Main.storyboard in Resources */,
+				7B8EFBDD1BD73D5B003F8833 /* Icon-40@2x.png in Resources */,
+				7B8EFBDA1BD73D46003F8833 /* Icon-Small@3x.png in Resources */,
+				7B075D921BC6D05A00FB4405 /* spells2.plist in Resources */,
+				7B8EFBE21BD73D74003F8833 /* Icon-60@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B075D841BC6093600FB4405 /* Spell.swift in Sources */,
+				7B4892C61BCA2AE3004B44BC /* SpellEffect.swift in Sources */,
 				7B1799E91BC4CE2D002A0BA3 /* ViewController.swift in Sources */,
 				7B1799EF1BC4CE2D002A0BA3 /* Cyphers5e.xcdatamodeld in Sources */,
+				7B179A981BC5799A002A0BA3 /* SpellList.swift in Sources */,
+				7B0DE9A21BD54DC800D28E60 /* CypherGenerator.swift in Sources */,
+				7B48922C1BC9EAF0004B44BC /* Cypher.swift in Sources */,
+				7B4891CD1BC8D623004B44BC /* ObjectGenerator.swift in Sources */,
 				7B1799E71BC4CE2D002A0BA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,10 +461,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cyphers5e/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webdevils.Cyphers5e;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -411,10 +475,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cyphers5e/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webdevils.Cyphers5e;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -485,6 +552,7 @@
 				7B179A101BC4CE2D002A0BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B179A111BC4CE2D002A0BA3 /* Build configuration list for PBXNativeTarget "Cyphers5eTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +561,7 @@
 				7B179A131BC4CE2D002A0BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B179A141BC4CE2D002A0BA3 /* Build configuration list for PBXNativeTarget "Cyphers5eUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +570,7 @@
 				7B179A161BC4CE2D002A0BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

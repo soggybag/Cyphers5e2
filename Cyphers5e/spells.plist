@@ -1,0 +1,5060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Acid Splash</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>211</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Aid</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>211</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Alarm</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>211</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Alter Self</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>211</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Animal Friendship</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>212</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Animal Messenger</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>212</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Animal Shapes</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>212</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Animate Dead</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>212</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Animate Objects</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>213</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Antilife Shell</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>213</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Antimagic Field</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>213</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Antipathy/Sympathy</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>214</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Arcane Eye</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>214</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Arcane Gate</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>214</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Arcane Lock</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>215</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Armor of Agathys</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>215</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Arms of Hadar</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>215</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Astral Projection</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>215</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Augury</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>215</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Aura of Life</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>216</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Aura of Purity</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>216</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Aura of Vitality</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>216</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Awaken</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>216</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Bane</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>216</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Banishing Smite</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>216</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Banishment</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>217</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Barkskin</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>217</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Beacon of Hope</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>217</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Beast Sense</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>217</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Bestow Curse</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>218</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Bigby's Hand</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>218</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Blade Barrier</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>218</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Blade Ward</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>218</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Bless</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>219</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Blight</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>219</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Blinding Smite</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>219</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Blindness/Deafness</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>219</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Blink</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>219</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Blur</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>219</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Branding Smite</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>219</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Burning Hands</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>220</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Call Lightning</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>220</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Calm Emotions</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>221</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Chain Lightning</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>221</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Charm Person</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>221</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Chill Touch</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>221</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Chromatic Orb</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>221</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Circle of Death</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>221</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Circle of Power</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>221</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Clairvoyance</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>222</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Clone</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>222</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cloud of Daggers</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>222</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cloudkill</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>222</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Color Spray</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>222</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Command</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>223</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Commune</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>223</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Commune with Nature</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>224</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Compelled Duel</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>224</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Comprehend Languages</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>224</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Compulsion</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>224</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cone of Cold</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>224</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Confusion</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>224</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Conjure Animals</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>225</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Conjure Barrage</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>225</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Conjure Celestial</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>225</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Conjure Elemental</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>225</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Conjure Fey</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>226</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Conjure Minor Elementals</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>226</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Conjure Volley</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>226</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Conjure Woodland Beings</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>226</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Contact Other Plane</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>226</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Contagion</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>227</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Contingency</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>227</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Continual Flame</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>227</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Control Water</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>227</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Control Weather</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>228</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cordon of Arrows</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>228</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Counterspell</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>228</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Create Food and Water</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>229</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Create or Destroy Water</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>229</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Create Undead</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>229</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Creation</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>229</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Crown of Madness</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>229</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Crusader's Mantle</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>230</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cure Wounds</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>230</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dancing Lights</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>230</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Darkness</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>230</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Darkvision</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>230</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Daylight</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>230</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Death Ward</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>230</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Delayed Blast Fireball</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>230</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Demiplane</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>231</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Destructive Wave</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>231</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Detect Evil and Good</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>231</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Detect Magic</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>231</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Detect Poison and Disease</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>231</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Detect Thoughts</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>231</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dimension Door</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>233</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Disguise Self</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>233</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Disintegrate</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>233</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dispel Evil and Good</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>233</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dispel Magic</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>234</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dissonant Whispers</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>234</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Divination</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>234</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Divine Favor</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>234</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Divine Word</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>234</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dominate Beast</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>234</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dominate Monster</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>235</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dominate Person</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>235</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Drawmij's Instant Summons</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>235</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dream</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>236</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Druidcraft</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>236</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Earthquake</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>236</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Eldritch Blast</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>237</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Elemental Weapon</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>237</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Enhance Ability</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>237</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Enlarge/Reduce</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>237</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ensnaring Strike</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>237</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Entangle</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>238</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Enthrall</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>238</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Etherealness</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>238</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Evard's Black Tentacles</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>238</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Expeditious Retreat</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>238</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Eyebite</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>238</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Fabricate</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>239</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Faerie Fire</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>239</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>False Life</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>239</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Fear</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>239</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Feather Fall</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>239</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Feeblemind</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>239</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Feign Death</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>240</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Find Familiar</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>240</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Find Steed</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>240</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Find the Path</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>240</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Find Traps</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>241</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Finger of Death</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>241</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Fire Bolt</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>242</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Fire Shield</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>242</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Fire Storm</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>242</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Fireball</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>241</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Flame Blade</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>242</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Flame Strike</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>242</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Flaming Sphere</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>242</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Flesh to Stone</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>243</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Fly</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>243</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Fog Cloud</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>243</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Forbiddance</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>243</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Forcecage</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>243</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Foresight</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>244</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Freedom of Movement</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>244</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Friends</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>244</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Gaseous Form</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>244</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Gate</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>244</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Geas</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>244</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Gentle Repose</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>245</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Giant Insect</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>245</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Glibness</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>245</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Globe of Invulnerability</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>245</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Glyph of Warding</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>245</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Goodberry</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>246</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Grasping Vine</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>246</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Grease</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>246</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Greater Invisibility</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>246</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Greater Restoration</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>246</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Guardian of Faith</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>246</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Guards and Wards</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>248</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Guidance</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>248</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Guiding Bolt</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>248</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Gust of Wind</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>248</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hail of Thorns</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>249</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hallow</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>249</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hallucinatory Terrain</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>249</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Harm</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>249</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Haste</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>250</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Heal</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>250</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Healing Word</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>250</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Heat Metal</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>250</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hellish Rebuke</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>250</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Heroes' Feast</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>250</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Heroism</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>250</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hex</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>251</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hold Monster</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>251</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hold Person</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>251</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Holy Aura</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>251</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hunger of Hadar</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>251</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hunter's Mark</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>251</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hypnotic Pattern</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>252</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ice Storm</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>252</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Identify</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>252</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Illusory Script</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>252</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Imprisonment</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>252</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Incendiary Cloud</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>253</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Inflict Wounds</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>253</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Insect Plague</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>254</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Invisibility</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>254</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Jump</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>254</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Knock</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>254</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Legend Lore</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>254</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Leomund's Secret Chest</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>254</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Leomund's Tiny Hut</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>255</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Lesser Restoration</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>255</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Levitate</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>255</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Light</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>255</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Lightning Arrow</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>255</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Lightning Bolt</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>255</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Locate Animals or Plants</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>256</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Locate Creature</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>256</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Locate Object</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>256</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Longstrider</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>256</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mage Armor</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>256</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mage Hand</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>256</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Magic Circle</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>256</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Magic Jar</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>257</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Magic Missile</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>257</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Magic Mouth</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>257</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Magic Weapon</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>257</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Major Image</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>258</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mass Cure Wounds</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>258</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mass Heal</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>258</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mass Healing Word</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>258</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mass Suggestion</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>258</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Maze</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>258</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Meld into Stone</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>259</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Melf's Acid Arrow</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>259</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mending</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>259</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Message</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>259</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Meteor Swarm</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>259</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mind Blank</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>259</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Minor Illusion</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>260</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mirage Arcane</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>260</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mirror Image</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>260</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mislead</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>260</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Misty Step</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>260</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Modify Memory</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>261</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Moonbeam</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>261</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mordenkainen's Faithful Hound</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>261</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mordenkainen's Magnificent Mansion</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>261</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mordenkainen's Private Sanctum</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>262</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mordenkainen's Sword</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>262</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Move Earth</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>263</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Nondetection</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>263</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Nystul's Magic Aura</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>263</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Otiluke's Freezing Sphere</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>263</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Otiluke's Resilient Sphere</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>264</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Otto's Irresistible Dance</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>264</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pass without Trace</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>264</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Passwall</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>264</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Phantasmal Force</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>264</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Phantasmal Killer</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>265</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Phantom Steed</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>265</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Planar Ally</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>265</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Planar Binding</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>265</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Plane Shift</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>266</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Plant Growth</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>266</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Poison Spray</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>266</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Polymorph</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>266</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Power Word Heal</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>266</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Power Word Kill</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>266</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Power Word Stun</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>267</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Prayer of Healing</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>267</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Prestidigitation</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>267</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Prismatic Spray</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>267</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Prismatic Wall</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>267</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Produce Flame</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>269</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Programmed Illusion</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>269</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Project Image</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>270</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Protection from Energy</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>270</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Protection from Evil and Good</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>270</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Protection from Poison</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>270</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Purify Food and Drink</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>270</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Raise Dead</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>270</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Rary's Telepathic Bond</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>270</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ray of Enfeeblement</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>271</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ray of Frost</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>271</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ray of Sickness</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>271</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Regenerate</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>271</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Reincarnate</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>271</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Remove Curse</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>271</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Resistance</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>272</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Resurrection</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>272</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Reverse Gravity</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>272</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Revivify</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>272</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Rope Trick</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>272</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sacred Flame</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>272</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sanctuary</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>272</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Scorching Ray</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>273</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Scrying</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>273</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Searing Smite</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>274</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>See Invisibility</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>274</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Seeming</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>274</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sending</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>274</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sequester</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>274</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Shapechange</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>274</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Shatter</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>275</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Shield</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>275</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Shield of Faith</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>275</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Shillelagh</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>275</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Shocking Grasp</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>275</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Silence</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>275</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Silent Image</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>276</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Simulacrum</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>276</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sleep</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>276</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sleet Storm</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>276</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Slow</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>277</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Spare the Dying</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>277</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Speak with Animals</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>277</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Speak with Dead</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>277</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Speak with Plants</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>277</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Spider Climb</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>277</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Spike Growth</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>277</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Spirit Guardians</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>278</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Spiritual Weapon</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>278</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Staggering Smite</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>278</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Stinking Cloud</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>278</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Stone Shape</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>278</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Stoneskin</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>278</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Storm of Vengeance</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>279</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Suggestion</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>279</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sunbeam</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>279</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sunburst</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>279</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Swift Quiver</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>279</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Symbol</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>280</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Tasha's Hideous Laughter</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>280</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Telekinesis</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>280</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Telepathy</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>281</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Teleport</string>
+		<key>Spell Level</key>
+		<string>7</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>281</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Teleportation Circle</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>282</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Tenser's Floating Disk</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>282</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Thaumaturgy</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>282</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Thorn Whip</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>282</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Thunderous Smite</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>282</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Thunderwave</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>282</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Time Stop</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>283</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Tongues</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>283</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Transport via Plants</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>283</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Tree Stride</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>283</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>True Polymorph</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>283</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>True Resurrection</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>284</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>True Seeing</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>284</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>True Strike</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>284</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Tsunami</string>
+		<key>Spell Level</key>
+		<string>8</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>284</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Unseen Servant</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>284</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Vampiric Touch</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>285</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Vicious Mockery</string>
+		<key>Spell Level</key>
+		<string>0</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>285</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wall of Fire</string>
+		<key>Spell Level</key>
+		<string>4</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>285</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wall of Force</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>285</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wall of Ice</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>285</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wall of Stone</string>
+		<key>Spell Level</key>
+		<string>5</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>287</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wall of Thorns</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>287</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Warding Bond</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>287</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Water Breathing</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>287</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Water Walk</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>287</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Web</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>287</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Weird</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>288</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wind Walk</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>288</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wind Wall</string>
+		<key>Spell Level</key>
+		<string>3</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>288</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wish</string>
+		<key>Spell Level</key>
+		<string>9</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>1</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>288</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Witch Bolt</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>1</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>1</string>
+		<key>PHB Page</key>
+		<string>289</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Word of Recall</string>
+		<key>Spell Level</key>
+		<string>6</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>289</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wrathful Smite</string>
+		<key>Spell Level</key>
+		<string>1</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>289</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Zone of Truth</string>
+		<key>Spell Level</key>
+		<string>2</string>
+		<key>Castable as Higher Level</key>
+		<string>0</string>
+		<key>Has DC</key>
+		<string>0</string>
+		<key>Has Attack</key>
+		<string>0</string>
+		<key>PHB Page</key>
+		<string>289</string>
+	</dict>
+</array>
+</plist>

@@ -1,25 +1,110 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cyphers5e" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRH-1F-qko">
+                                <rect key="frame" x="-4" y="380" width="328" height="100"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.84313725490000002" green="0.3576930796237614" blue="0.14560595244332705" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="L0y-R7-X7A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <state key="normal" title="Generate">
+                                    <color key="titleColor" red="0.97898262183786688" green="0.95454876239127895" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="generateButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pNj-Ay-Em6"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6xu-K0-kEW">
+                                <rect key="frame" x="8" y="64" width="304" height="287"/>
+                                <animations/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bds-3e-Ufg">
+                                <rect key="frame" x="-4" y="0.0" width="328" height="64"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="VJJ-5n-gmc"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem id="uPS-Zr-UJB">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="ECZ-dy-crS">
+                                            <connections>
+                                                <action selector="sendButtonTapped:" destination="BYZ-38-t0r" id="MaU-OY-4V3"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfy-wg-zBX">
+                                <rect key="frame" x="-4" y="350" width="328" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gPe-2k-4ei"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Based on the Relic generator by Sly Flourish"/>
+                                <connections>
+                                    <action selector="acknowledgmentTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P0u-uQ-ej2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wfy-wg-zBX" secondAttribute="trailing" constant="-20" id="3BE-I4-IFn"/>
+                            <constraint firstItem="6xu-K0-kEW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="3TG-oY-seG"/>
+                            <constraint firstItem="qRH-1F-qko" firstAttribute="top" secondItem="Wfy-wg-zBX" secondAttribute="bottom" id="56S-Rq-0rz"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Wfy-wg-zBX" secondAttribute="leading" constant="20" id="66i-WW-M9U"/>
+                            <constraint firstItem="6xu-K0-kEW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="78u-68-A39"/>
+                            <constraint firstItem="Bds-3e-Ufg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="NF4-5o-KI2"/>
+                            <constraint firstItem="Bds-3e-Ufg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="QTm-Jx-2at"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qRH-1F-qko" secondAttribute="bottom" id="SUy-9l-dbN"/>
+                            <constraint firstItem="qRH-1F-qko" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="SfC-8z-pNJ"/>
+                            <constraint firstItem="6xu-K0-kEW" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="8" id="Z5H-Pf-yw7"/>
+                            <constraint firstItem="Bds-3e-Ufg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="a3T-mn-IF7"/>
+                            <constraint firstItem="Bds-3e-Ufg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="cmd-38-Jy6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qRH-1F-qko" secondAttribute="trailing" constant="-20" id="mTn-ag-vF7"/>
+                            <constraint firstItem="qRH-1F-qko" firstAttribute="width" secondItem="6xu-K0-kEW" secondAttribute="height" multiplier="100:79" id="qQU-TQ-w3V"/>
+                            <constraint firstItem="qRH-1F-qko" firstAttribute="top" secondItem="6xu-K0-kEW" secondAttribute="bottom" constant="29" id="rVB-bl-Afu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bds-3e-Ufg" secondAttribute="trailing" constant="-20" id="rxY-hG-44P"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="QTm-Jx-2at"/>
+                                <exclude reference="a3T-mn-IF7"/>
+                                <exclude reference="qQU-TQ-w3V"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="displayText" destination="6xu-K0-kEW" id="Mhl-hR-sYJ"/>
+                        <outlet property="sendBarButton" destination="ECZ-dy-crS" id="dAW-YY-TWa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="474" y="403"/>
         </scene>
     </scenes>
 </document>
