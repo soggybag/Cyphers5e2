@@ -21,7 +21,7 @@ class Cypher {
         self.name = name
         self.objectDescription = objectDescription
         self.spellEffect = spellEffect
-        self.cost = spellEffect.getCostForSpellLevel(spellEffect.level)
+      self.cost = spellEffect.getCostForSpellLevel(level: spellEffect.level)
     }
     
     // TODO: Output HTML text
