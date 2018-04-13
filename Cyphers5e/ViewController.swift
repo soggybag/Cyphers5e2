@@ -96,7 +96,7 @@ MFMailComposeViewControllerDelegate {
   
   // MARK: - Email Delegate 
   
-  func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
+  func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
     controller.dismiss(animated: true, completion: nil)
   }
   
@@ -125,8 +125,6 @@ MFMailComposeViewControllerDelegate {
     case MessageComposeResult.sent :
       print("message sent")
       
-    default:
-      break
     }
     controller.dismiss(animated: true, completion: nil)
   }
@@ -159,7 +157,8 @@ MFMailComposeViewControllerDelegate {
   
   
   func displayCypher() {
-    displayText.attributedText = stringToAttributedString(str: cypher.getHTMLDescription())
+    displayText.attributedText = cypher.getHTMLDescription().html2Attributed
+    // displayText.attributedText = stringToAttributedString(str: cypher.getHTMLDescription())
   }
   
   
@@ -175,8 +174,15 @@ MFMailComposeViewControllerDelegate {
     }
     
     html = "<span style='font-family: Helvetica; font-size:14pt'>"+html+"</span>"
-    let data = html.data(using: String.Encoding.unicode, allowLossyConversion: true)
-    let attrStr = try! NSAttributedString(data: data!, options: [NSDocumentTypeDocumentOption: NSHTMLTextDocumentType], documentAttributes: nil)
+    
+    //    guard let data = html.data(using: String.Encoding.unicode, allowLossyConversion: true) else {
+    //      return NSAttributedString()
+    //    }
+    
+    // let attrStr = try! NSAttributedString(data: data!, options: [NSDocumentTypeDocumentOption: NSHTMLTextDocumentType], documentAttributes: nil)
+    
+    let attrStr = NSAttributedString(string: html)
+    
     return attrStr
   }
   
@@ -230,19 +236,64 @@ MFMailComposeViewControllerDelegate {
 
 // MARK: - Extensions
 
+//extension String {
+//  func stringToAttributedString() -> NSAttributedString {
+//    var html = self
+//    while let range = html.rangeOfString("\n") {
+//      html.replaceRange(range, with: "</br>")
+//    }
+//
+//    html = "<span style='font-family: Helvetica; font-size:14pt'>"+html+"</span>"
+//    let data = html.data(using: String.Encoding.unicode, allowLossyConversion: true)
+//    let attrStr = try! NSAttributedString(data: data!, options: [NSDocumentTypeDocumentOption: NSHTMLTextDocumentType], documentAttributes: nil)
+//    return attrStr
+//  }
+//}
+
 extension String {
-  func stringToAttributedString() -> NSAttributedString {
-    var html = self
-    while let range = html.rangeOfString("\n") {
-      html.replaceRange(range, with: "</br>")
+  var stringToAttributedString: NSAttributedString? {
+    do {
+      guard let data = data(using: String.Encoding.utf8) else {
+        return nil
+      }
+      return try NSAttributedString(data: data,
+                                    options: [.documentType: NSAttributedString.DocumentType.html,
+                                              .characterEncoding: String.Encoding.utf8.rawValue],
+                                    documentAttributes: nil)
+    } catch {
+      print("error: ", error)
+      return nil
     }
-    
-    html = "<span style='font-family: Helvetica; font-size:14pt'>"+html+"</span>"
-    let data = html.data(using: String.Encoding.unicode, allowLossyConversion: true)
-    let attrStr = try! NSAttributedString(data: data!, options: [NSDocumentTypeDocumentOption: NSHTMLTextDocumentType], documentAttributes: nil)
-    return attrStr
   }
 }
+
+extension String {
+  var html2Attributed: NSAttributedString? {
+    do {
+      guard let data = data(using: String.Encoding.utf8) else {
+        return nil
+      }
+      return try NSAttributedString(data: data,
+                                    options: [.documentType: NSAttributedString.DocumentType.html,
+                                              .characterEncoding: String.Encoding.utf8.rawValue],
+                                    documentAttributes: nil)
+    } catch {
+      print("error: ", error)
+      return nil
+    }
+  }
+}
+
+//extension String{
+//  func convertHtml() -> NSAttributedString{
+//    guard let data = data(using: .utf8) else { return NSAttributedString() }
+//    do{
+//      return try NSAttributedString(data: data, options: [NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType, NSCharacterEncodingDocumentAttribute: String.Encoding.utf8.rawValue], documentAttributes: nil)
+//    }catch{
+//      return NSAttributedString()
+//    }
+//  }
+//}
 
 
 extension CAGradientLayer {

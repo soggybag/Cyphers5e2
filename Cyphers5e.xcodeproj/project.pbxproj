@@ -30,6 +30,7 @@
 		7B8EFBE11BD73D74003F8833 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EFBDF1BD73D74003F8833 /* Icon-60@2x.png */; };
 		7B8EFBE21BD73D74003F8833 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EFBE01BD73D74003F8833 /* Icon-60@3x.png */; };
 		7B8EFBE41BD73DB9003F8833 /* Icons.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EFBE31BD73DB9003F8833 /* Icons.png */; };
+		D8C40D0F20815E4B00C20C99 /* SwiftyPlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C40D0E20815E4B00C20C99 /* SwiftyPlistManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		7B8EFBDF1BD73D74003F8833 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
 		7B8EFBE01BD73D74003F8833 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
 		7B8EFBE31BD73DB9003F8833 /* Icons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icons.png; sourceTree = "<group>"; };
+		D8C40D0E20815E4B00C20C99 /* SwiftyPlistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyPlistManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				7B1799F01BC4CE2D002A0BA3 /* Assets.xcassets */,
 				7B1799F21BC4CE2D002A0BA3 /* LaunchScreen.storyboard */,
 				7B1799F51BC4CE2D002A0BA3 /* Info.plist */,
+				D8C40D0E20815E4B00C20C99 /* SwiftyPlistManager.swift */,
 				7B1799ED1BC4CE2D002A0BA3 /* Cyphers5e.xcdatamodeld */,
 			);
 			path = Cyphers5e;
@@ -235,7 +238,7 @@
 		7B1799DB1BC4CE2C002A0BA3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "mitchell hudson";
 				TargetAttributes = {
 					7B1799E21BC4CE2D002A0BA3 = {
@@ -319,6 +322,7 @@
 				7B1799EF1BC4CE2D002A0BA3 /* Cyphers5e.xcdatamodeld in Sources */,
 				7B179A981BC5799A002A0BA3 /* SpellList.swift in Sources */,
 				7B0DE9A21BD54DC800D28E60 /* CypherGenerator.swift in Sources */,
+				D8C40D0F20815E4B00C20C99 /* SwiftyPlistManager.swift in Sources */,
 				7B48922C1BC9EAF0004B44BC /* Cypher.swift in Sources */,
 				7B4891CD1BC8D623004B44BC /* ObjectGenerator.swift in Sources */,
 				7B1799E71BC4CE2D002A0BA3 /* AppDelegate.swift in Sources */,
@@ -384,13 +388,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -428,13 +442,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -453,6 +477,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

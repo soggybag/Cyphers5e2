@@ -11,7 +11,6 @@ import GameplayKit
 
 class SpellList {
   
-  
   // Hold spells
   
   var spellList = [Spell]()
@@ -29,9 +28,13 @@ class SpellList {
   
   
   // Build spell list
+  // FIXME: Doesn't handle
   func getSpells(spellList: NSArray) {
-    
     for spell in spellList {
+      guard let spell = spell as? Dictionary<String, Any> else {
+        break
+      }
+      
       let name = spell["name"] as! String
       let level = Int((spell["level"] as! String))!
       let castAtHigherLevel = Int((spell["castAtHigherLevel"] as! String))!.toBool()!
@@ -40,6 +43,7 @@ class SpellList {
       let pagePHB = Int((spell["pagePHB"] as! String))!
       
       // print(name, level, castAtHigherLevel, hasDC, hasAttack, pagePHB)
+     
       let newSpell = Spell(name: name, level: level, castAtHigherLevel: castAtHigherLevel, hasDC: hasDC, hasAttack: hasAttack, pagePHB: pagePHB)
       self.spellList.append(newSpell)
     }
@@ -56,7 +60,10 @@ class SpellList {
       }
     }
     
-    let sortedSpellList = self.spellList.sort {$0.level < $1.level}
+    // let sortedSpellList = self.spellList.sort {$0.level < $1.level}
+    let sortedSpellList = self.spellList.sorted { (a, b) -> Bool in
+      return a.level < b.level
+    }
     
     for spell in sortedSpellList {
       if self.spellListBylevel[safe: spell.level] != nil {
@@ -83,6 +90,7 @@ class SpellList {
   
   // Get a random spell of Level
   func getRandomSpellOfLevel(level: Int) -> Spell {
+    // FIXME: First run spellListBylevel has 0 elements
     return self.getRandomSpellFromList(list: self.spellListBylevel[level])
   }
   
@@ -96,6 +104,9 @@ class SpellList {
   // Load Data from plist
   
   func loadDataFromPlist(plist: String) -> NSArray? {
+    
+    // SwiftyPlistManager.shared.start(plistNames: [plist], logging: true)
+    
     if let path = Bundle.main.path(forResource: plist, ofType: "plist") {
       return NSArray(contentsOfFile: path)
     }
