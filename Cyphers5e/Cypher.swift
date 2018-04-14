@@ -12,25 +12,28 @@ import Foundation
 // Holds a Cypher with spell effect 
 
 class Cypher {
-    let name: String!
-    let objectDescription: String!
-    let spellEffect: Spell!
-    let cost: Int!
+  let name: String!
+  let objectDescription: String!
+  let spellEffect: Spell!
+  let cost: Int!
+  
+  init(name: String, objectDescription: String, spellEffect: Spell) {
+    self.name = name
+    self.objectDescription = objectDescription
+    self.spellEffect = spellEffect
+    self.cost = spellEffect.getCostForSpellLevel(level: spellEffect.level)
+  }
+  
+  // TODO: Output HTML text
+  func getHTMLDescription() -> String {
+    let description = objectDescription ?? "No Description"
+    let effect = spellEffect.description() 
     
-    init(name: String, objectDescription: String, spellEffect: Spell) {
-        self.name = name
-        self.objectDescription = objectDescription
-        self.spellEffect = spellEffect
-      self.cost = spellEffect.getCostForSpellLevel(level: spellEffect.level)
-    }
-    
-    // TODO: Output HTML text
-    func getHTMLDescription() -> String {
-        return "<h1>\(objectDescription).</h1> Casts \(spellEffect.description())"
-    }
-    
-    // TODO: Output plain text
-    func getPlainTextDescription() -> String {
-        return "\(objectDescription). Casts \(spellEffect.descriptionPlainText())"
-    }
+    return "<h1>\(description).</h1> Casts \(effect)"
+  }
+  
+  // TODO: Output plain text
+  func getPlainTextDescription() -> String {
+    return "\(objectDescription). Casts \(spellEffect.descriptionPlainText())"
+  }
 }

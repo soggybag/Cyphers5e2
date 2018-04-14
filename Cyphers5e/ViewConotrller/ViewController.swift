@@ -13,6 +13,7 @@ class ViewController: UIViewController,
   MFMessageComposeViewControllerDelegate,
 MFMailComposeViewControllerDelegate {
   
+  // MARK: - Public vars
   
   var spellList: SpellList!
   var cypherString: String = ""
@@ -24,10 +25,12 @@ MFMailComposeViewControllerDelegate {
   @IBOutlet weak var displayText: UITextView!
   @IBOutlet weak var sendBarButton: UIBarButtonItem!
   
+  
+  // MARK: - IBActions
+  
   @IBAction func generateButtonTapped(sender: UIButton) {
     newCypher()
   }
-  
   
   
   @IBAction func acknowledgmentTapped(sender: UIButton) {
@@ -36,17 +39,14 @@ MFMailComposeViewControllerDelegate {
   }
   
   
-  
-  
-  // MARK: - IBActions
-  
   @IBAction func sendButtonTapped(sender: UIBarButtonItem) {
     openSendCypherAlert()
   }
   
   
+  // Mark: - Public Methods
   
-  // MARK: - Send Cypher Alert
+  // Open Send Cypher/Relic Alert
   
   func openSendCypherAlert() {
     let alert = UIAlertController(title: "Send Cypher", message: nil, preferredStyle: UIAlertControllerStyle.actionSheet)
@@ -73,7 +73,6 @@ MFMailComposeViewControllerDelegate {
   }
   
   
-  
   // TODO: - Show alert when messages fail
   
   func showErrorAlert(message: String) {
@@ -81,7 +80,7 @@ MFMailComposeViewControllerDelegate {
   }
   
   
-  // MARK: - Send Email
+  // Send Email
   
   func emailCypher() {
     let mailVC = MFMailComposeViewController()
@@ -94,13 +93,14 @@ MFMailComposeViewControllerDelegate {
   }
   
   
-  // MARK: - Email Delegate 
+  // Email Delegate
   
   func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
     controller.dismiss(animated: true, completion: nil)
   }
   
   
+  // Message
   func messageCypher() {
     let messageVC = MFMessageComposeViewController()
     messageVC.body = cypher.getPlainTextDescription()
@@ -129,66 +129,7 @@ MFMailComposeViewControllerDelegate {
     controller.dismiss(animated: true, completion: nil)
   }
   
-  
-  
-  // MARK: - New Cypher
-  
-  func newCypher() {
-    /*
-     // Get Cypher string
-     let str = spellList.getCypher()
-     let atr = stringToAttributedString(str)
-     displayText.attributedText = atr
-     
-     cypherString = str
-     cypherAttributedString = atr
-     */
-    
-    let spell = spellList.getRandomSpellWeightedForLevel()
-    let description = ObjectGenerator.getDescription()
-    cypher = Cypher(name: "", objectDescription: description, spellEffect: spell)
-    
-    displayCypher()
-    
-    print("--------------------------------")
-    print(cypher.getHTMLDescription())
-    print(cypher.getPlainTextDescription())
-  }
-  
-  
-  func displayCypher() {
-    displayText.attributedText = cypher.getHTMLDescription().html2Attributed
-    // displayText.attributedText = stringToAttributedString(str: cypher.getHTMLDescription())
-  }
-  
-  
-  
-  // MARK: - String to Attributed String
-  
-  func stringToAttributedString(str: String) -> NSAttributedString {
-    var html = str
-    // while let range = html.rangeOfString("\n") {
-    while let range = html.range(of: "\n") {
-      html.replaceSubrange(range, with: "</br>")
-      // html.replaceRange(range, with: "</br>")
-    }
-    
-    html = "<span style='font-family: Helvetica; font-size:14pt'>"+html+"</span>"
-    
-    //    guard let data = html.data(using: String.Encoding.unicode, allowLossyConversion: true) else {
-    //      return NSAttributedString()
-    //    }
-    
-    // let attrStr = try! NSAttributedString(data: data!, options: [NSDocumentTypeDocumentOption: NSHTMLTextDocumentType], documentAttributes: nil)
-    
-    let attrStr = NSAttributedString(string: html)
-    
-    return attrStr
-  }
-  
-  
-  
-  // MARK: - Check SMS and Mail capability
+  // Check SMS and Mail capability
   
   func checkMessageAndMailCapability() {
     if !MFMessageComposeViewController.canSendText() && !MFMailComposeViewController.canSendMail() {
@@ -196,6 +137,46 @@ MFMailComposeViewControllerDelegate {
     }
   }
   
+  
+  
+  
+  // MARK: - New Cypher
+  
+  
+  
+  func newCypher() {
+    let spell = spellList.getRandomSpellWeightedForLevel()
+    let description = ObjectGenerator.getDescription()
+    cypher = Cypher(name: "", objectDescription: description, spellEffect: spell)
+    
+    print(cypher)
+    
+    displayCypher()
+  }
+  
+  
+  func displayCypher() {
+    displayText.attributedText = cypher.getHTMLDescription().html2Attributed
+  }
+  
+  
+  
+  // String to Attributed String
+  
+  func stringToAttributedString(str: String) -> NSAttributedString {
+    var html = str
+    
+    while let range = html.range(of: "\n") {
+      html.replaceSubrange(range, with: "</br>")
+    }
+    
+    html = "<span style='font-family: Helvetica; font-size:14pt'>"+html+"</span>"
+    
+    let attrStr = NSAttributedString(string: html)
+    
+    return attrStr
+  }
+
   
   
   // MARK: - Set gradient background
@@ -218,6 +199,8 @@ MFMailComposeViewControllerDelegate {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    displayText.font = UIFont.boldSystemFont(ofSize: 20)
     
     setGradientBackground()
     spellList = SpellList()
@@ -273,10 +256,43 @@ extension String {
       guard let data = data(using: String.Encoding.utf8) else {
         return nil
       }
-      return try NSAttributedString(data: data,
-                                    options: [.documentType: NSAttributedString.DocumentType.html,
-                                              .characterEncoding: String.Encoding.utf8.rawValue],
-                                    documentAttributes: nil)
+      let attStr = try NSAttributedString(data: data,
+                                          options: [.documentType: NSAttributedString.DocumentType.html,
+                                                    .characterEncoding: String.Encoding.utf8.rawValue],
+                                          documentAttributes: nil)
+      
+      // ----------------
+      
+      let newAttributedString = NSMutableAttributedString(attributedString: attStr)
+      
+      // Enumerate through all the font ranges
+      newAttributedString.enumerateAttribute(NSAttributedStringKey.font, in: NSMakeRange(0, newAttributedString.length), options: [])
+      {
+        value, range, stop in
+        guard let currentFont = value as? UIFont else {
+          return
+        }
+        
+        // An NSFontDescriptor describes the attributes of a font: family name, face name, point size, etc.
+        // Here we describe the replacement font as coming from the "Hoefler Text" family
+        let fontDescriptor = currentFont.fontDescriptor.addingAttributes([UIFontDescriptor.AttributeName.family: "Hoefler Text"])
+        
+        // Ask the OS for an actual font that most closely matches the description above
+        if let newFontDescriptor = fontDescriptor.matchingFontDescriptors(withMandatoryKeys: [UIFontDescriptor.AttributeName.family]).first {
+          // let newFont = UIFont(descriptor: newFontDescriptor, size: currentFont.pointSize)
+          let newFont = UIFont(descriptor: newFontDescriptor, size: currentFont.pointSize * 2)
+          newAttributedString.addAttributes([NSAttributedStringKey.font: newFont], range: range)
+        }
+      }
+      
+      // label.attributedText = newAttributedString
+      
+      // ----------------
+      
+      // let font = UIFont.boldSystemFont(ofSize: 24)
+      
+      return newAttributedString
+      // return attStr
     } catch {
       print("error: ", error)
       return nil
